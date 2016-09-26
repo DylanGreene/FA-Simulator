@@ -1,7 +1,7 @@
 FA Simulator
 ============
 
-Written by: Dylan Greene
+Written by: Dylan Greene  
 Updated on: 26 September 2016
 
 To run the simulator, ensure that dfa.py is executable. To ensure this, simply
@@ -18,7 +18,7 @@ format:
   * Line 5: A comma separated list of state names that should be marked as
   accepting states.
   * Line 6 and beyond: one transition rule per line, in the format:  
-  <Initial_State_Name>,<Input_Symbol>,<New_State_Name>
+  \<Initial\_State\_Name\>,\<Input\_Symbol\>,\<New\_State\_Name\>
 
 Additionally, a test file must be supplied. The format for the test file is
 simply one line for each string to be input to the machine.
